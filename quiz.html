@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasir_P_Final-Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Image/pngwing.com.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="pngwing.com.png" alt="">
+        <nav>
+            <div class="openMenu openMenu-1"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clock.html">Clock</a></li>
+                <li><a href="caculator.html">Calculator</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container container-3">
+            <div class="question">
+                <h1 class="question" id="question">In which year did Captain America and Iron Man go to, to retrieve the Tesseract after failing once in Avengers Endgame?</h1>
+                <p class="difficulty" id="difficulty">Difficulty - Easy</p>
+            </div>
+
+            <div class="options">
+                <div class="option-1 option" id="option-1">
+                    <h2 id="option1-text">1974</h2>
+                </div>
+                <div class="option-2 option" id="option-2">
+                    <h2 id="option2-text">1970</h2>
+                </div>
+                <div class="option-3 option" id="option-3">
+                    <h2 id="option3-text">1967</h2>
+                </div>
+                <div class="option-4 option" id="option-4">
+                    <h2 id="option4-text">1972</h2>
+                </div>
+            </div>
+
+            <div class="submit-button">
+                <button id="submit">Submit</button>
+                <button id="next">Next</button>
+                <button id="hint">Hint</button>
+                <button id="again">Reload to solve again</button>
+            </div>
+
+            <div class="hint-area">
+                <img src="" alt="hint" id="hint_image">
+            </div>
+            <p id="error"></p>
+        </div>
+    </main>
+    <footer><div class="media-icons">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <br>
+    <h2>&copy; Since 2001 Developed and Designed by Patel Developers</h2></footer>
+    <script src="common-script.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>

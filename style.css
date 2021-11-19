@@ -400,8 +400,8 @@ h1{
     text-align:center;
     background: none;
   }
-  #submit{
-    background-color: none;
-    text-align: center;
+  .submit-button button{
+    background: none;
+    box-shadow: none;
   }
 }
